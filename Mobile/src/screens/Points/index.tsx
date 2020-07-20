@@ -26,14 +26,14 @@ interface Item {
 interface Points {
   id: number;
   name: string;
-  image: string;
+  image_url: string;
   latitude: number;
   longitude: number;
 }
 
 interface Params {
-  uf: string;
-  city: string;
+  selectedUF: string;
+  selectedCity: string;
 }
 
 const Points = () => {
@@ -84,13 +84,14 @@ const Points = () => {
     api
       .get("points", {
         params: {
-          city: routeParams.city,
-          uf: routeParams.uf,
+          city: routeParams.selectedCity,
+          uf: routeParams.selectedUF,
           items: selectedItems,
         },
       })
       .then((response) => {
         setPoints(response.data);
+        console.log(response.data);
       });
   }, [selectedItems]);
 
@@ -135,7 +136,7 @@ const Points = () => {
                     <Image
                       style={styles.mapMarkerImage}
                       source={{
-                        uri: point.image,
+                        uri: point.image_url,
                       }}
                     ></Image>
                     <Text style={styles.mapMarkerTitle}>{point.name}</Text>

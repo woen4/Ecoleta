@@ -24,14 +24,13 @@ const Home = () => {
             </span>
             <strong>Cadastre um ponto de coleta</strong>
           </Link>
-          <button id="button-android">
-            <AiFillAndroid color="#fff" size={35}></AiFillAndroid>
-          </button>
-          <button id="button-ios">
-            <AiFillApple color="#fff" size={35}></AiFillApple>
-          </button>
         </main>
       </div>
+      <a style={{}} target="_blank" href="https://drive.google.com/file/d/1V-gODRmul45UtYqyBXjC_tWK0kXcrpnr/view?usp=sharing">
+        <button id="button-android">
+          <AiFillAndroid color="#fff" size={35}></AiFillAndroid>
+        </button>
+      </a>
     </div>
   );
 };

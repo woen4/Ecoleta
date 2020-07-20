@@ -30,8 +30,8 @@ interface cityORuf {
 
 const Home = () => {
   const navigation = useNavigation();
-  const [selectedCity, setSelectedCity] = useState("0");
-  const [selectedUF, setSelectedUF] = useState("0");
+  const [selectedCity, setSelectedCity] = useState("");
+  const [selectedUF, setSelectedUF] = useState("");
   const [citys, setCitys] = useState<cityORuf[]>([]);
   const [ufs, setUfs] = useState<cityORuf[]>([]);
 
@@ -90,7 +90,9 @@ const Home = () => {
           <View style={styles.input}>
             <RNPickerSelect
               placeholder={{ label: "Selecione um estado" }}
-              onValueChange={setSelectedUF}
+              onValueChange={(city) => {
+                setSelectedUF(city);
+              }}
               items={ufs}
             />
           </View>
@@ -98,7 +100,9 @@ const Home = () => {
           <View style={styles.input}>
             <RNPickerSelect
               placeholder={{ label: "Selecione uma cidade" }}
-              onValueChange={setSelectedCity}
+              onValueChange={(city) => {
+                setSelectedCity(city);
+              }}
               items={citys}
             />
           </View>
@@ -115,6 +119,7 @@ const Home = () => {
               <Text>Entrar</Text>
             </Text>
           </RectButton>
+          <Text style={styles.credites}>Kaio Woen && RocketSeat</Text>
         </View>
       </ImageBackground>
     </KeyboardAvoidingView>
@@ -125,8 +130,15 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 32,
+    paddingBottom: 10,
   },
-
+  credites: {
+    color: "#555",
+    textAlign: "center",
+    fontSize: 12,
+    marginTop: 8,
+    fontFamily: "Roboto_400Regular",
+  },
   main: {
     flex: 1,
     justifyContent: "center",

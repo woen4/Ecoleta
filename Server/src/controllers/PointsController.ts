@@ -1,9 +1,11 @@
 import knex from "../database/connection";
 import { Request, Response } from "express";
+import { type } from "os";
+import { strict } from "assert";
 
 class PointsController {
   async create(req: Request, res: Response) {
-    const {
+    let {
       name,
       email,
       whatsapp,
@@ -63,7 +65,7 @@ class PointsController {
 
     const serializedPoint = {
       ...point,
-      image_url: `http://192.168.2.179:3333/uploads/${point.image}`,
+      image_url: `https://ecoleta-nlw1edition.herokuapp.com/uploads/${point.image}`,
     };
 
     return res.json({ point: serializedPoint, items });
@@ -89,7 +91,7 @@ class PointsController {
     const serializedPoints = points.map((point) => {
       return {
         ...point,
-        image_url: `http://192.168.2.179:3333/uploads/${point.image}`,
+        image_url: `https://ecoleta-nlw1edition.herokuapp.com/uploads/${point.image}`,
       };
     });
 

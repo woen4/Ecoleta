@@ -18,7 +18,7 @@ import * as MailComposer from "expo-mail-composer";
 
 interface Data {
   point: {
-    image: string;
+    image_url: string;
     name: string;
     email: string;
     whatsapp: string;
@@ -71,7 +71,7 @@ const Detail = () => {
           style={styles.pointImage}
           source={{
             uri:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQk06VkP5NVqnqP9UZ9dGcUd-3J1jJFZEmiSg&usqp=CAU",
+              data.point.image_url,
           }}
         ></Image>
         <Text style={styles.pointName}>{data.point.name} </Text>

@@ -1,4 +1,4 @@
-#Ecoleta
+# Ecoleta
 <h1 align=center>
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3cPHvtbek_SSKZ6b7a21TNL3zEK6CJ8zSXtmhiKOI3cWcZqAPtWjKWSzFf1zj1MnJ1Vm_-_6Cz7c-Iwq2untB78eTHUKcey18kErLgR-l2Da1-sBGpwBPnz7gZNrXj71EusgzMmCtCoYMIqNJ8saNE=w1323-h658-no?authuser=0" />
 </h1>
@@ -17,7 +17,7 @@ Este projeto teve seu desenvolvimento guiado pela instituição educacional <a h
 
 </h3>
 
-![Banner](https://user-images.githubusercontent.com/38081852/84095189-04178580-a9d5-11ea-9496-9ec6f6a282e5.png)
+![Banner](https://lh3.googleusercontent.com/i57Qyeq1UBuuKkzD5mwBWLZgz2H_6P3gIWF8CzhioreWU4EQX4_4BAZe7IEfEHjHamYb7L8Gv4uOm1svqJ7hkhHXNlhsT8bkz9EAtlBdL63RYxjfDl1plriql4oXsDWki99ucE-Mx5B-0H6iQi9PBY0hWJv6uEk4HTtksyt053pbJagqVkmuR8EMEHv84kzsO9_0LgH26sUCq1qLNkWKsCCrRvGwJM8RKNKR8MIFSch9VeIn6QBx4M7yB9DB4C1GJJSlClEi_BSIQlcX55Ox8l3nuBtVyQqB5b9sEG_sR_ppdj_To0RTEDLXa_nPjHEK9CIYXyJ3OtUd0-9_7lJeDk0O2H6_NyRxfHPkeoIaePP9EVHpNGpzRYHN_26w2lET480L1jSLTQPMNbNcdkAujTrc7i8LwZFU72sz4IYhgLQqQzWpX3YcPxCQwB7hpKTa2iZWD3_YhLaY6G4zWvkqwhlCzT7z3N6SzE7SGVAmm5hJJ7ODBC9jCl4nzFfuXKinvPi5vbmvH7aHbJL4UBI_XirzlhfqIgKBXvbQV2Q4j0w6k2auXCzcsJnZ8qbkG0fnKU9XXFWGCl_lDPksXxD1s1YZeGeLPA7D9hoERHAKlEUZQnnCVmaK12tvCT_pi3T7-E6NSstcMyuBtw8ZK08lR-nDl5csOUqqhcXNe00kshPxGGmSBEH5aeVquqND=w1323-h658-no?authuser=0)
 
 ## **:dart: OBJETIVO**
 
@@ -82,7 +82,7 @@ As empresas e/ou entidades podem cadastrar seus pontos de coleta por meio do sit
 # 3. Abra o terminal o diretório do website:
 - Windows: Tecla Windows + X -> Clique em Windows PowerSheel (Admin)
 - Linux: Ctrl + Alt + T
-- Mac OS: <a href="https://pt.wikihow.com/Abrir-o-Terminal-no-Mac">Tutorial<a>
+- Mac OS: https://pt.wikihow.com/Abrir-o-Terminal-no-Mac
 
 # 4. Abra o diretório do repositório que você baixou:
 - Execute o comando: cd CaminhoDoRepositório/Web (Exemplo: c:/users/documents/woen/Ecoleta/Web)

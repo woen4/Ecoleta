@@ -68,7 +68,7 @@ As empresas e/ou entidades podem cadastrar seus pontos de coleta por meio do sit
 ## **:game_die: COMO UTILIZAR**
 
 ### Utilizando o aplicativo:
-> (Android) Baixe o aplicativo  clicando neste link: https://expo.io/artifacts/b8b584a6-3475-4f1e-9dd8-fadb70107fd7
+> (Android) Baixe o aplicativo  clicando neste link: https://expo.io/artifacts/b8b584a6-3475-4f1e-9dd8-fadb70107fd7<br>
 > (iOS) Esperando um problema do Expo ser resolvido para publica o app ios :(
 
 ### Utilizando o Website

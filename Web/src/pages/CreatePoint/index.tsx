@@ -127,9 +127,8 @@ const CreatePoint = () => {
     if (selectedFile) {
       data.append("image", selectedFile);
       try {
-        const response = await api.post("points", data);
+        await api.post("points", data);
         history.push("/success-register");
-        console.log(response.data);
       } catch (error) {
         alert(error.response.data.message);
       }

@@ -3,6 +3,49 @@
   
     background: url('../../assets/home-background.svg') no-repeat 600px bottom;
   }
+
+  #button-android{
+    background-color: #4ecb79;
+    width: 11vh;
+    height: 11vh;
+    bottom: 17vh;
+    left: 40vw;
+    position: absolute;
+    border-width: 0px;
+    border-radius: 8px;
+  }
+
+  #button-android :hover{
+    background-color: #2fB86B;
+    width: 11vh;
+    height: 11vh;
+    cursor: pointer;
+    border-width: 0px;
+    border-radius: 8px;
+   
+  }
+
+  #button-ios :hover{
+    background-color: #2fB86B;
+    width: 11vh;
+    height: 11vh;
+    cursor: pointer;
+    border-width: 0px;
+    border-radius: 8px;
+   
+  }
+
+  #button-ios{
+    background-color: #4ecb79;
+    width: 11vh;
+    height: 11vh;
+    bottom: 17vh;
+    left: 46vw;
+    position: absolute;
+    border-width: 0px;
+    border-radius: 8px;
+  }
+ 
   
   #page-home .content {
     width: 100%;
@@ -80,7 +123,7 @@
   }
   
   #page-home .content main a:hover {
-    background: #2FB86E;
+    background: #2fB86B;
   }
   
   @media(max-width: 900px) {

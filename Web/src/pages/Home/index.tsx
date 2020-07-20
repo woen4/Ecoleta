@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.svg";
 import "./styles.css";
 import { FiLogIn } from "react-icons/fi";
+import { AiFillAndroid, AiFillApple } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -23,6 +24,12 @@ const Home = () => {
             </span>
             <strong>Cadastre um ponto de coleta</strong>
           </Link>
+          <button id="button-android">
+            <AiFillAndroid color="#fff" size={35}></AiFillAndroid>
+          </button>
+          <button id="button-ios">
+            <AiFillApple color="#fff" size={35}></AiFillApple>
+          </button>
         </main>
       </div>
     </div>

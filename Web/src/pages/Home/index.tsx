@@ -26,7 +26,7 @@ const Home = () => {
           </Link>
         </main>
       </div>
-      <a style={{}} target="_blank" href="https://drive.google.com/file/d/1V-gODRmul45UtYqyBXjC_tWK0kXcrpnr/view?usp=sharing">
+      <a style={{}} target="_blank" href="https://expo.io/artifacts/b8b584a6-3475-4f1e-9dd8-fadb70107fd7">
         <button id="button-android">
           <AiFillAndroid color="#fff" size={35}></AiFillAndroid>
         </button>
